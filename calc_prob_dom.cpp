@@ -57,5 +57,5 @@ double monteAllele(int x, int y, int z) {
 }
 
 /*** R
-monteAllele(2,2,2)
+mean(replicate(10000,monteAllele(2,2,2)))
 */
